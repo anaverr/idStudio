@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>idStudio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleable=0"><!--I'm not sure about this all metas-->
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <logo><img src="img/logo.svg"></logo>
+                <nav class="menu">
+                    <a href="#intro">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#pricing">Pricing</a>
+                </nav>
+                <p class="phone">(303) 555-0105</p><!--smth w/ lable and input??-->
+                <p class="language">EN</p><!--checkbox?-->
+                <span class="menu-btn"></span>
+            </header>
+            <section class="intro" id="intro">
+                <h2 class="intro__title">We create your space better</h2>
+                <p class="intro__text">Our team creates comfortable spaces for our clients. We’ve been designing your everyday life and work through great ideas since 1999.</p>
+                <button class="intro__button">GET STARTED</button>
+            </section>
+            <section class="info" id="info">
+                <h3 class="info__title">About <span class="title_beige">Studio</span></h3>
+                <div class="info__block"> <!--для десктоп версии, чтобы сделать flexbox-->
+                    <p class="info__text">Interiart is an award-winning architecture and interior design practice based in NYC. We work internationally on projects of residential & commercial interior design that require a creative approach. Our talented and experienced designers leverage their knowledge and expertise to create unique and comfortable interiors for you.</p>
+                    <p class="info__text">Our team knows that interior design can be stressful for the client and we do our best to make it as easy as possible. We listen to your needs, ideas, and inputs. And most importantly, we make it exciting and enjoyable for our clients.</p>
+                    <p class="add-link add-text-link">READ MORE</p><!--checkbox?-->
+                </div>    
+            </section>
+            <section class="services" id="services">
+                <h3 class="services__title">Our <span class="title_beige">Services</span></h3>
+                <div class="services__list">
+                    <div class="services__list-block">
+                        <img class="services__list-item" src="img/services-icon-1.svg" width="82px">
+                        <h4 class="services__list-item">INTERIOR DESIGN</h4>
+                        <p class="services__list-item">Interior design services offer a vast variety of solutions for our clients’ homes and offices.</p>
+                    </div>
+                    <div class="services__list-block">
+                        <img class="services__list-item" src="img/services-icon-2.svg" width="100px">
+                        <h4 class="services__list-item">DECORATIVE SERVICES</h4>
+                        <p class="services__list-item">Our professional decorators will be happy to help you change your house’s inner look.</p>
+                    </div>
+                    <div class="services__list-block">
+                        <img class="services__list-item" src="img/services-icon-3.svg" width="80px">
+                        <h4 class="services__list-item">SPACE PLANNING</h4>
+                        <p class="services__list-item">We create better interior experiences through our space planning services.</p>
+                    </div>
+                    <div class="services__list-block">
+                        <img class="services__list-item" src="img/services-icon-4.svg" width="68px">
+                        <h4 class="services__list-item">PROJECT MANAGEMENT</h4>
+                        <p class="services__list-item">We provide proper project management as it’s one of the main success factors in interior design.</p>
+                    </div>
+                </div>
+                <button class="services__button">FREE CONSULTATION</button>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <h3 class="portfolio__title">Our <span class="title_beige">Portfolio</span></h3>
+                <div class="portfolio__menu">
+                    <a class="portfolio__menu-item portfolio__menu-item_active">ALL</a>
+                    <a class="portfolio__menu-item">COMERCIAL</a>
+                    <a class="portfolio__menu-item">RESIDENTIAL</a>
+                    <a class="portfolio__menu-item">OFFICE</a>
+                    <a class="portfolio__menu-item">OTHER</a>
+                </div>
+                <div class="portfolio__gallery">
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img"></div>
+                    <div class="portfolio__img portfolio__additional-img"></div>
+                    <div class="portfolio__img portfolio__additional-img"></div>
+                    <div class="portfolio__img portfolio__additional-img"></div>
+                    <div class="portfolio__img portfolio__additional-img"></div>
+                    <div class="portfolio__img portfolio__additional-img"></div>
+                    <p class="add-link add-img-link">VIEW MORE</p>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "BN Chester", serif;
+    src: url(font/BNChesterRegular.woff) format(woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Golroy", sans-serif;
+    src: url(font/Gilroy-Light.woff) format(woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy", sans-serif;
+    src: url(font/GilroyMedium.woff) format(woff);
+    font-weight: 500; /* medium */
+}
+
+@font-face {
+    font-family: "Gilroy", sans-serif;
+    src: url(font/GilroySemiBold.woff) format(woff);
+    font-weight: 600; /* semibold */
+}
+
+@font-face {
+    font-family: "Gilroy", sans-serif;
+    src: url(font/GilroySemiBold.woff) format(woff);
+    font-weight: bold;
+}
