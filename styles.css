@@ -60,32 +60,31 @@ button {
     display: none;
 }
 
-.menu-btn {
+.menu-icon {
+    width: 34px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-btn_upper {
+    background: #161616;
+    width: 18px;
+    height: 2px;
+  }
+  
+  .menu-btn {
+    background: #161616;
     width: 34px;
     height: 2px;
+    margin: 10px 0;
+  }
+  
+  .menu-btn_lower {
     background: #161616;
-    margin: auto 0;
-    position: relative;
-}
-
-.menu-btn::before {
-    content: "";
     width: 18px;
     height: 2px;
-    background: #161616;
-    position: absolute;
-    top: -10px;
-    right: 0;
-}
-
-.menu-btn::after {
-    content: "";
-    width: 18px;
-    height: 2px;
-    position: absolute;
-    background: #161616;
-    top: 10px;
-}
+    align-self: flex-end;
+  }
 
 .intro {
     padding-top: 104px;
@@ -132,7 +131,7 @@ button {
 
 .add-link {
     text-decoration: underline;
-    text-decoration-color: #D3A265;   
+    text-decoration-color: #D3A265;
     font-weight: bold;
     font-size: 13px;
 }
