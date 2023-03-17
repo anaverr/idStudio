@@ -5,6 +5,8 @@
     font-size: 16px; /* change font units to rem or smth ?? */
     font-weight: normal;
     color: #161616;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h2, h3, h3 span {
