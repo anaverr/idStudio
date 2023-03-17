@@ -14,9 +14,9 @@ h2, h3, h3 span {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 1;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #3D3737;
 }
 
@@ -30,17 +30,18 @@ a {
 }
 
 button {
-    padding: 12px 120px;
+    padding: 12px 124px;
     border-radius: 10px;
     border-color: #D3A265;
     font-weight: bold;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-transform: uppercase;
 }
 
 .header {
-    width: 90%;
+    width: 86%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -58,6 +59,7 @@ button {
 
 .language {
     display: none;
+    text-transform: uppercase;
 }
 
 .menu-icon {
@@ -70,6 +72,7 @@ button {
     background: #161616;
     width: 18px;
     height: 2px;
+    align-self: flex-end;
   }
   
   .menu-btn {
@@ -83,12 +86,11 @@ button {
     background: #161616;
     width: 18px;
     height: 2px;
-    align-self: flex-end;
   }
 
 .intro {
-    padding-top: 104px;
-    padding-bottom: 276px;
+    padding-top: 110px;
+    padding-bottom: 280px;
     background-image: url(img/bg-img-mob.webp);
     background-repeat: no-repeat;
     background-size: 106%;
@@ -97,32 +99,33 @@ button {
 
 .intro__title {
     padding-bottom: 30px;
-    width: 90%;
+    width: 86%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .intro__text {
     padding-bottom: 40px;
-    width: 90%;
+    width: 86%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
 .info {
-    padding: 54px 24px 38px 24px;
+    padding: 58px 28px 38px 28px;
     background-color: #F4F4F4;
 }
 
 .info__title {
     width: 90px;
     padding-bottom: 28px;
+    letter-spacing: 2px;
 }
 
 .info__text {
-    padding-bottom: 34px;
-    line-height: 1.6;
+    padding-bottom: 30px;
+    line-height: 1.7;
 }
 
 .info__text:nth-child(2) {
@@ -134,12 +137,15 @@ button {
     text-decoration-color: #D3A265;
     font-weight: bold;
     font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .services {
-    padding-top: 56px;
+    padding-top: 58px;
     margin-left: auto;
     margin-right: auto;
+    width: 84%;
 }
 
 .services__title {
@@ -147,6 +153,8 @@ button {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    line-height: 1.1;
+    letter-spacing: 1px;
 }
 
 .services__list {
@@ -160,7 +168,7 @@ button {
     justify-content: center;
     display: flex;
     flex-direction: column;
-} /* not center with width !! */
+}
 
 .services__list-block:nth-child(1), .services__list-block:nth-child(2), .services__list-block:nth-child(3) {
     border-bottom: solid #DCD1BB 1px;
@@ -179,7 +187,7 @@ button {
 }
 
 .services__list-block:nth-child(4) {
-    padding-top: 54px;
+    padding-top: 52px;
 }
 
 .services__list-item {
@@ -189,18 +197,36 @@ button {
 }
 
 .services__list-item:nth-child(1) {
-    padding-bottom: 42px;
+    padding-bottom: 40px;
+}
+
+.services__list-block:nth-child(2) .services__list-item:nth-child(1) {
+    padding-bottom: 48px;
+}
+
+.services__list-block:nth-child(3) .services__list-item:nth-child(1) {
+    padding-bottom: 44px;
+}
+
+.services__list-block:nth-child(4) .services__list-item:nth-child(1) {
+    padding-bottom: 50px;
 }
 
 .services__list-item:nth-child(2) {
-    padding-bottom: 40px;
+    padding-bottom: 36px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .services__list-item:nth-child(3) {
-    width: 250px;
+    width: 260px;
     line-height: 1.5;
+    line-height: 1.6;
     font-weight: normal;
+}
+
+.services__list-block:nth-child(4) .services__list-item:nth-child(3) {
+    width: 280px;
 }
 
 .services__button {
@@ -213,8 +239,9 @@ button {
 
 .portfolio__title {
     text-align: center;
-    padding-top: 47px;
+    padding-top: 48px;
     padding-bottom: 64px;
+    letter-spacing: 1.6px;
 }
 
 .portfolio__menu {
@@ -227,6 +254,7 @@ button {
     text-align: center;
     font-weight: 500;
     font-size: 13px;
+    text-transform: uppercase;
 }
 
 .portfolio__menu-item_active {
@@ -278,8 +306,8 @@ button {
     background-image: url(img/portfolio-img-8.webp);
 }
 
-.add-img-link {
+.portfolio__add-link {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
