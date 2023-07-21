@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Gilroy", sans-serif;
-    font-size: 16px; /* change font units to rem or smth ?? */
+    font-size: 16px; /* change font to rem or smth ?? */
     font-weight: normal;
     color: #161616;
     -webkit-font-smoothing: antialiased;
@@ -22,6 +22,10 @@ h2 {
     color: #3D3737;
 }
 
+ul {
+    list-style: none;
+}
+
 .title_beige {
     color: #D3A265;
 }
@@ -31,7 +35,7 @@ a {
     color: #352C2C;
 }
 
-button {
+.button {
     padding: 12px 124px;
     border-radius: 10px;
     border-color: #D3A265;
@@ -312,4 +316,99 @@ button {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.pricing__title {
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 70px;
+}
+
+.pricing__plan {
+    width: 270px;
+    border: solid #D3A265;
+    border-radius: 10px;
+    padding: 27px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing__standart {
+    background-color: #D3A265;
+}
+
+.pricing__plan-title {
+    font-family: "BN Chester", serif;
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+.pricing__standart-title {
+    color: #FFFFFF;
+}
+
+.pricing__price {
+    font-family: "BN Chester", serif;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.pricing__standart .pricing__price {
+    color: #FFFFFF;
+}
+
+.pricing__standart span {
+    font-family: "BN Chester", serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.pricing__price_gray {
+    font-family: "BN Chester", serif;
+    font-size: 16px;
+    color: #BBBBBB;
+}
+
+.pricing__price__line {
+    height: 1px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DCD1BB;
+}
+
+.pricing__standart .line {
+    background-color: #FFFFFF;
+}
+
+.pricing__plan-servises {
+    padding-top: 26px;
+}
+
+.pricing__plan-servise {
+    padding-bottom: 10px;
+}
+
+.pricing__standart .pricing__plan-servise {
+    color: #FFFFFF;
+}
+
+.pricing__plan-servise:nth-child(4) {
+    padding-bottom: 30px;
+}
+
+.pricing__buy-btn {
+    border: solid 1px #D3A265;
+    width: 100%;
+    background-color: #D3A265;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pricing__standart .pricing__buy-btn {
+    border-top: solid 1px #FDFBF8;
 }
