@@ -412,3 +412,97 @@ a {
 .pricing__standart .pricing__buy-btn {
     border-top: solid 1px #FDFBF8;
 }
+
+.feedback {
+    background-color: #F4F4F4;
+}
+
+.feedback__title {
+    text-align: center;
+    padding: 54px 0;
+}
+
+.feedback__cards {
+    display: flex;
+}
+
+.feedback__card__userpic, .feedback__card__name, .feedback__card__position, .feedback__card__icons, .feedback__card__text {
+    display: none;
+}
+
+.feedback__card {
+    background-image: url('img/people--card-bg.png');
+    width: 90%;
+    margin: 0 auto;
+    /* border-radius: 10px; */
+    padding-bottom: 25px;
+    margin-bottom: 96px;
+}
+
+.feedback__MarvinMcKinney {
+    display: none;
+}
+
+.feedback__grid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 36px;
+}
+
+.feedback__card__userpic {}
+
+.feedback__card__name {}
+
+.feedback__card__position {}
+
+.feedback__card__icons {
+    /* display: flex; */
+}
+
+.feedback__card__icon {
+    margin-left: 18px;
+}
+
+.feedback__card__text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question {
+    padding-bottom: 47px;
+}
+
+.question__title {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 46px 0;
+}
+
+.question__button {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer {
+    background-color: #F4F4F4;
+    padding-top: 60px;
+    padding-bottom: 35px;
+
+}
+
+.footer__div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {}
+
+.footer__icons {}
+
+.footer__icon {}
